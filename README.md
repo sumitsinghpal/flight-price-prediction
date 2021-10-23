@@ -35,3 +35,14 @@ Made Columns for Day and Month out of Date of Journey
 Calculated the total flight duration
 Removed the null values
 Removed the outliers
+
+# Technologies Used
+octoparse
+python
+flask
+pandas
+matplotlib
+seaborn
+sklearn
+pickle
+
