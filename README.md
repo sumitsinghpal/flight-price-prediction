@@ -35,17 +35,17 @@ For purchasing an airplane ticket, the traditional purchase approach is to buy a
 # Cleaning the Data
 - I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
 - Made Columns for Day and Month out of Date of Journey
-Calculated the total flight duration
-Removed the null values
-Removed the outliers
+- Calculated the total flight duration
+- Removed the null values
+- Removed the outliers
 
 # Technologies Used
-octoparse
-python
-flask
-pandas
-matplotlib
-seaborn
-sklearn
-pickle
+- octoparse
+ - python
+- flask
+- pandas
+- matplotlib
+- seaborn
+- sklearn
+- pickle
 
