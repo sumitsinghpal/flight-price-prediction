@@ -26,7 +26,7 @@ For purchasing an airplane ticket, the traditional purchase approach is to buy a
 - Duration: Total duration of the flight.
 - Total_Stops: Total stops between the source and destination.
 - Additional_Info: Additional information about the flight
-- Price: The price of the ticket
+- Price: The price of the ticket.
 
 # data collection 
 - collected data buy using data scraping tool octoprase and used insta data scraping google extender
