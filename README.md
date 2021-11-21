@@ -39,6 +39,19 @@ For purchasing an airplane ticket, the traditional purchase approach is to buy a
 - Removed the null values
 - Removed the outliers
 
+# Model Training:
+Solution of Flight fare prediction is used to predict the flight fare in advance, so it  should be as accurate as possible so that it should give as much as possible  accurate price prediction.  
+That’s why before building this model we followed complete process of Machine  Learning . Here are summary of complete process: 
+1. First we cleaned our dataset properly by removing all null value and  duplicate value present in dataset. 
+2. Then we performed feature extraction, in which I extracted journey date,  month and departure and arrival hour , minutes in new separate column. 
+3. After that I performed feature engineering step in which I created one new  feature “Total_Duration”. In this feature what I have done is , I converted  total time in minutes. 
+4. Then I performed feature selection step in which I dropped some feature  like(Route, Date_of_journey, Departure_time, arrival_time and  Additional_Info). 
+5. Then I handled categorical variable by performing One-Hot encoding. 
+6. Then I split the hole data set train-test split. After that I performed scaling on X_train and X_test. 
+7. After performing above step I was ready for model training. In this step, I  trained my dataset on different Regression Learning algorithm(Linear,  Random-Forest, K-NN, DecisionTreeRegression, SVR, Ridge, Lasso and  Elastic net). After training the dataset on different algorithms I got highest  accuracy of 80% on RandomForrestRegression. 
+8. After that I applied hyper-parameter tuning on all model which I have  described above. Here also I got highest accuracy of 85% on test dataset by  same RandomForrestRegression. 
+9. After that I saved my model in pickle file format for model deployment. 
+
 # Technologies Used
 - octoparse
  - python
